@@ -5,7 +5,7 @@ int main() {
     printf("Enter your marks (0 to 100): ");
     scanf("%d", &marks);
 
-    int grade = marks / 10;  // This converts 90–100 to 9/10, 80–89 to 8, etc.
+    int grade = marks / 10;  // This converts 90â€“100 to 9/10, 80â€“89 to 8, etc.
 
     switch (grade) {
         case 10:
